@@ -11,7 +11,6 @@ program.version(require('../package.json').version)
         .parse(process.argv)
 
 if(program.upload){
-   
     inquirer.prompt([{
         type:'input',
         name:'local',
@@ -32,5 +31,5 @@ if(program.upload){
     })
 }
 if(program.dowload){
-    console.log('dowload')
+  
 }
